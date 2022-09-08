@@ -1,6 +1,6 @@
 # Bivens Web Components
 
-A collection of various web components built using [Lit][https://lit.dev] and [open-wc](https://github.com/open-wc/open-wc) recommendations.
+A collection of various web components built using [Lit](https://lit.dev) and [open-wc](https://github.com/open-wc/open-wc) recommendations.
 
 ## Installation
 

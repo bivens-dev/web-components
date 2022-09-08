@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: #fafafa;
+    }
+
+    top-nav {
+      --top-nav-font-size: 1.3rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit';
+    import '../dist/src/components/top-nav/top-nav.js';
+
+    render(
+      html`
+        <top-nav>
+          <ul part="link-list">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about-us" aria-current="page">About us</a>
+            </li>
+            <li>
+              <a href="#pricing">Pricing</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </top-nav>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>

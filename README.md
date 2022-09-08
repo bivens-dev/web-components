@@ -1,21 +1,12 @@
-# \<top-nav>
+# Bivens Web Components
 
-This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
+A collection of various web components built using [Lit][https://lit.dev] and [open-wc](https://github.com/open-wc/open-wc) recommendations.
 
 ## Installation
 
 ```bash
-npm i top-nav
-```
-
-## Usage
-
-```html
-<script type="module">
-  import 'top-nav/top-nav.js';
-</script>
-
-<top-nav></top-nav>
+# Note: This is not actually published in real life at the moment
+npm i bivens-web-components
 ```
 
 ## Linting and formatting
